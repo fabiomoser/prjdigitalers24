@@ -1,0 +1,22 @@
+DJANGO
+Sistema web
+Cliente - Servidor
+Frontend (HTML, CSS, Javascript, Bootstrap)
+Backend (Python, Motores BD)
+
+Direccion IP URL (Dominio)
+Request (Pedido)
+Response (Respuesta)
+
+Arquitectura RestFull (recursos)
+
+www.clinicannn.com/pacientes 
+www.clinicannn.com/medicos
+www.clinicannn.com/turnos
+
+GET (obtener info)
+POST (grabar, modificar,eliminar info) 
+
+Protocolos de funcionamiento del diseño
+CGI (Common Gateway Interface)
+Django -> WSGI (Web Server Gateway Interface)

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de clientes</title>
+    </head>
+    <body>
+        <h3>Lista de clientes</h3>
+        <table style="border: 1px solid">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            {% for nombre, edad in clientes %}
+                <tr>
+                    <td>{{ nombre }}</td>
+                    <td>{{ edad }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

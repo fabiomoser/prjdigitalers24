@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alta cliente</title>
+    </head>
+    <body>
+        <h3>Alta de cliente</h3>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <br>
+            <input type="submit" value="Grabar">
+        </form>
+    </body>
+</html>

@@ -20,3 +20,9 @@ POST (grabar, modificar,eliminar info)
 Protocolos de funcionamiento del diseño
 CGI (Common Gateway Interface)
 Django -> WSGI (Web Server Gateway Interface)
+
+Dada un IP (URL) se deriva a una funcion de python
+
+-- Instalación
+pip install django
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Página principal</title>
+    </head>
+    <body>
+        <h2>Pagina principal cliente</h2>
+        <p>Nombre: {{ nombre }}</p>
+        <p>Edad: {{ edad }} años</p>
+        <p>Dirección: {{ direccion.calle }}. Localidad: {{ direccion.localidad }}</p>
+        <p>
+            {% if cant_hijos > 0 %}
+                Tiene hijos (ver lista)
+            {% else %}
+                No tiene hijos
+            {% endif %}
+        </p>
+        <h3>Nombre de los hijos</h3>
+        <ul>
+            {% for hijo in hijos %}
+                <li>{{ hijo }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
